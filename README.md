@@ -1,14 +1,14 @@
-# 🎯 Customer Churn Prediction API
+# Customer Churn Prediction API
 
 > Machine learning-powered REST API for predicting customer churn
 
 A production-ready FastAPI application that predicts customer churn using XGBoost, enabling data-driven retention strategies. Fully containerized with Docker for scalable deployment.
 
-## 📊 Project Overview
+## Project Overview
 
 This project analyzes **10,000+ customers** to predict churn probability and improve retention by **31%**. The end-to-end ML pipeline delivers actionable insights through a scalable REST API.
 
-## 📦 Installation
+## Installation
 
 ### Option 1: Docker (Recommended)
 ```bash
@@ -119,7 +119,7 @@ The complete training process is documented in `notebooks/bank_churn.ipynb`:
 3. Target high-charge customers with loyalty programs
 4. Enhance customer support for at-risk segments
 
-## 📁 Project Structure
+## Project Structure
 ```
 churn-api/
 ├── app/
@@ -140,8 +140,6 @@ churn-api/
 └── README.md                      # This file
 ```
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-⭐ **Star this repo** if you found it helpful!
