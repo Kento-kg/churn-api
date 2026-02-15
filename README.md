@@ -90,9 +90,9 @@ curl -X POST "http://localhost:8000/predict" \
 
 # Response: {"churn": 1}  # 1 = High Risk, 0 = Low Risk
 ```
-## 📓 Model Training
+## Model Training
 
-The complete training process is documented in `notebooks/bank_churn.ipynb`:
+The complete training process is documented in `notebooks/telco_churn.ipynb`:
 
 - **Exploratory Data Analysis**: Identified key factors correlated with customer attrition
 - **Data Cleaning**: Handled missing values and outliers
@@ -100,7 +100,7 @@ The complete training process is documented in `notebooks/bank_churn.ipynb`:
 - **Hyperparameter Tuning**: GridSearchCV optimization
 - **Customer Segmentation**: Clustering analysis for targeted retention strategies
 
-## 🎓 Key Insights
+## Key Insights
 
 ### Churn Indicators
 - Contract type (month-to-month shows highest churn)
@@ -131,7 +131,7 @@ churn-api/
 │       ├── preprocessing.py       # Custom transformers
 │       └── xgb_pipeline-0.1.0.pkl # Trained model
 ├── notebooks/
-│   └── bank_churn.ipynb           # Training notebook
+│   └── telco_churn.ipynb           # Training notebook
 ├── Dockerfile                     # Docker configuration
 ├── docker-compose.yml             # Multi-container setup
 ├── .dockerignore                  # Docker ignore rules
