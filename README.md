@@ -91,20 +91,6 @@ curl -X POST "http://localhost:8000/predict" \
   }'
 ```
 
-## 🐳 Docker
-
-### Comandos útiles
-```bash
-# Ver logs
-docker logs -f <container-id>
-
-# Detener
-docker stop <container-id>
-
-# Eliminar
-docker rm <container-id>
-```
-
 ## 📁 Estructura del proyecto
 ```
 ├── app/
